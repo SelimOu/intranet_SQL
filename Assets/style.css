@@ -1,0 +1,283 @@
+* {
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#bodyLogin {
+    background-image: url(images/elizeu-dias-RN6ts8IZ4_0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    font-size: 70%;
+}
+
+.logInContainer {
+    display: flex;
+    border-radius: 25px;
+    width: 40%;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.754);
+    justify-content: center;
+    align-items: center;
+    top: 250px;
+    position: absolute;
+    left: 450px;
+}
+
+#erreurContainer {
+    text-align: center;
+    color: red;
+}
+
+.contenuLogin {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+}
+
+#submit {
+    background-color: grey;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: 120%;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#logoindex {
+    width: 30%;
+}
+
+.input {
+    border-radius: 20px;
+    height: 40px;
+    background-color: grey;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 120%;
+
+}
+
+
+#username::placeholder {
+    background-color: grey;
+    color: rgba(255, 255, 255, 0.788);
+    text-align: center;
+    font-size: 120%;
+
+}
+
+#password::placeholder {
+    background-color: grey;
+    color: rgba(255, 255, 255, 0.788);
+    text-align: center;
+    font-size: 120%;
+}
+
+#footerLogin {
+    margin-top: 77vh;
+    background-color: white;
+    height: 100px;
+}
+
+#footerDash {
+    background-color: white;
+    height: 100px;
+}
+
+#logo {
+    width: 20%;
+}
+
+#imageHeader {
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+}
+
+#headerDash {
+    display: flex;
+    flex-direction: column;
+
+    height: 8%;
+}
+
+#logoUtulisateur {
+    width: 5%;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 60px;
+    background-color: white;
+    height: 100px;
+}
+
+#btnLogout {
+    height: 80px;
+    width: 200%;
+    background-color: rgb(149, 0, 255);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#btnAdd {
+    height: 80px;
+    width: 280%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.images {
+    width: 90%;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.voyageConatainer {
+    border: 2px solid black;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.724);
+    margin-bottom: 40px;
+}
+
+.contenuTemplate {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#bodyDashboard {
+    background-image: url(images/elizeu-dias-RN6ts8IZ4_0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+#editBtn {
+    width: 150px;
+    margin-left: 50px;
+    background-color: grey;
+    height: 50px;
+    border-radius: 25px;
+}
+
+#suppBtn {
+    width: 150px;
+    margin-left: 50px;
+    background-color: red;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.containerForm {
+
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    display: flex;
+    border-radius: 20px;
+
+    margin-bottom: 40px;
+    height: 40vh;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.bodyForm {
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.contenuForm {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.elements {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 20px;
+}
+
+
+form {
+    font-size: 150%;
+}
+
+input {
+    width: 80%;
+    border-radius: 20px;
+    padding-left: 5px;
+    height: 30px;
+}
+
+select {
+    width: 82%;
+    border-radius: 20px;
+    height: 30px;
+
+}
+
+
+
+#btnAnnuler {
+    width: 60%;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.BtnAnnContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.BtnSuppContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#btnSupp {
+    width: 20%;
+    text-align: center;
+    height: 30px;
+}
+
+#description {
+    height: 100px;
+}
